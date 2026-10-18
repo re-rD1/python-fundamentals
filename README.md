@@ -1,49 +1,57 @@
-# Python Fundamentals
+# Student Academic Data Management System
 
-A personal learning repository documenting my journey in Python programming, from foundational concepts to practical exercises and projects.
+A Python-based command-line application developed as a project to manage high school student records and academic scores.
 
-## 📚 Repository Contents
+## 📌 Project Overview
 
-### Student Academic Data
+The Student Academic Data Management System is designed to simplify basic student data management for Grades X, XI, and XII. The application allows users to view student records, add new students, update academic scores, and delete student records through an interactive menu.
 
-A menu-driven command-line application for managing high school student records across Grades X, XI, and XII.
+This project demonstrates the practical application of Python fundamentals, including data structures, functions, conditional statements, loops, and input validation.
 
-**Features**
-- **Read student data:** Display student IDs (NIS), names, gender, and subject scores in a formatted table.
-- **Add students:** Register a new student with a unique NIS, gender, and subject scores.
-- **Update scores:** Find a student by NIS and update their score in a selected subject.
-- **Delete students:** Remove a student record after confirmation.
-- **Input validation:** Check for duplicate NIS values, validate gender input, and ensure updated scores are between 0 and 100.
-- **Class selection:** Select a class using Roman numerals (X, XI, XII) or numeric equivalents (10, 11, 12).
+## 🎯 Project Objectives
 
-The project uses nested Python dictionaries to organize student records, lists to store student attributes and scores, and functions to separate the program's operations. It also uses the `tabulate` package to display student records in readable tables.
+- Apply Python programming fundamentals to a practical use case.
+- Build an interactive menu-driven application.
+- Practice managing structured data using Python dictionaries and lists.
+- Implement basic CRUD (Create, Read, Update, Delete) operations.
 
-**Subjects managed:**
-- Mathematics
-- English
-- Bahasa Indonesia
-- Science
+## ✨ Features
 
-## 🛠️ Concepts Practiced
+| Feature | Description |
+|---|---|
+| Read Student Data | Display student IDs (NIS), names, gender, and academic scores in a formatted table. |
+| Add Student | Add a new student record with NIS, gender, and subject scores. |
+| Update Student Score | Update a student's score in a selected subject using their NIS. |
+| Delete Student | Remove a student record after confirmation. |
+| Input Validation | Check for duplicate NIS values, validate gender input, and validate updated scores. |
+| Class Selection | Manage student records for Grades X, XI, and XII. |
 
-- Variables, data types, and user input
-- Conditional statements and loops
+**Subjects managed:** Mathematics, English, Bahasa Indonesia, and Science.
+
+## 🛠️ Tools & Technologies
+
+- **Python** — application logic and data management.
+- **Tabulate** — formatting student records into readable tables.
+
+## 🧠 Python Concepts Applied
+
+- Variables and data types
 - Lists and nested lists
 - Dictionaries and nested dictionaries
 - Functions and return values
-- Indexing and list operations
-- Input validation and basic error handling
-- Importing third-party Python packages
-- Building a menu-driven command-line application
+- Conditional statements and loops
+- Indexing and list manipulation
+- Input validation
 - Basic CRUD operations
+- Third-party library integration
+
+## ⚠️ Limitations
+
+- Student records are stored in memory and are not saved permanently after the application exits.
+- The application uses sample student data for demonstration purposes.
+- The current version focuses on basic student record management through a command-line interface.
 
 
-## 📝 Notes
 
-- Student records are sample data intended for learning purposes.
-- Data is currently stored in memory, so changes are not retained after the program exits.
-- This repository will continue to grow as I practice Python and develop additional projects.
 
----
-
-Made as part of my Python learning journey.
+[View Source Code](CapstoneM1_Rayhan.py)
